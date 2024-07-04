@@ -89,7 +89,7 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 ## 📌Models
 
-| Model Name        | HuggingFace Checkpoints                                                           | WiseModel Checkpoints                                                                  | ModelScope Checkpoints                                                                   |
+| Model Name        | HuggingFace                                                          | WiseModel                                                                 | ModelScope                                                                |
 |-------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | OceanGPT-14B-v0.1 | <a href="https://huggingface.co/zjunlp/OceanGPT-14B-v0.1" target="_blank">14B</a> | <a href="https://wisemodel.cn/models/zjunlp/OceanGPT-14B-v0.1" target="_blank">14B</a> | <a href="https://modelscope.cn/models/ZJUNLP/OceanGPT-14B-v0.1" target="_blank">14B</a> |
 | OceanGPT-7B-v0.2  | <a href="https://huggingface.co/zjunlp/OceanGPT-7b-v0.2" target="_blank">7B</a>   | <a href="https://wisemodel.cn/models/zjunlp/OceanGPT-7b-v0.2" target="_blank">7B</a>   | <a href="https://modelscope.cn/models/ZJUNLP/OceanGPT-7b-v0.2" target="_blank">7B</a>   |
