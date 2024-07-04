@@ -98,7 +98,7 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 ---
 ### 🚩Citation
 
-Please cite our repository if you use EasyInstruct in your work.
+Please cite our repository if you use OceanGPT in your work.
 
 ```bibtex
 @article{
