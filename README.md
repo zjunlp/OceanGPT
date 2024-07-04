@@ -91,11 +91,11 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 ## 🛠️Models
 
-| Model Name        | huggingface Checkpoints                                                           | wisemodel Checkpoints                                                                  | wisemodel Checkpoints                                                                   |
-|-------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| OceanGPT-14B-v0.1 | <a href="https://huggingface.co/zjunlp/OceanGPT-14B-v0.1" target="_blank">14B</a> | <a href="https://wisemodel.cn/models/zjunlp/OceanGPT-14B-v0.1" target="_blank">14B</a> | <a href="https://modelscope.cn/models/ZJUNLP/OceanGPT-14B-v0.1" target="_blank">14B</a> |
-| OceanGPT-7B-v0.2  | <a href="https://huggingface.co/zjunlp/OceanGPT-7b-v0.2" target="_blank">7B</a>   | <a href="https://wisemodel.cn/models/zjunlp/OceanGPT-7b-v0.2" target="_blank">7B</a>   | <a href="https://modelscope.cn/models/ZJUNLP/OceanGPT-7b-v0.2" target="_blank">7B</a>   |
-| OceanGPT-2B-v0.1  | <a href="https://huggingface.co/zjunlp/OceanGPT-2B-v0.1" target="_blank">2B</a>   | <a href="https://wisemodel.cn/models/zjunlp/OceanGPT-2b-v0.1" target="_blank">2B</a>   | <a href="https://modelscope.cn/models/ZJUNLP/OceanGPT-2B-v0.1" target="_blank">2B</a>   |
+| Model Name        | HF Checkpoints                                                                       |
+|-------------------|--------------------------------------------------------------------------------------|
+| OceanGPT-14B-v0.1 | 🤗 <a href="https://huggingface.co/zjunlp/OceanGPT-14B-v0.1" target="_blank">14B</a> |
+| OceanGPT-7B-v0.2  | 🤗 <a href="https://huggingface.co/zjunlp/OceanGPT-7b-v0.2" target="_blank">7B</a>   |
+| OceanGPT-2B-v0.1  | 🤗 <a href="https://huggingface.co/zjunlp/OceanGPT-2B-v0.1" target="_blank">2B</a>   |
 
 ---
 ### 🚩Citation
@@ -103,11 +103,11 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 Please cite our repository if you use EasyInstruct in your work.
 
 ```bibtex
-@article{bi2023oceangpt,
+@article{
   title={OceanGPT: A Large Language Model for Ocean Science Tasks},
-  author={Bi, Zhen and Zhang, Ningyu and Xue, Yida and Ou, Yixin and Ji, Daxiong and Zheng, Guozhou and Chen, Huajun},
+  author={Zhen Bi, Ningyu Zhang, Yida Xue, Yixin Ou, Daxiong Ji, Guozhou Zheng, Huajun Chen},
   journal={arXiv preprint arXiv:2310.02031},
-  year={2023}
+  year={2024}
 }
 
 @misc{knowlm,
