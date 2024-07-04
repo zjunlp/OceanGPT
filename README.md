@@ -91,7 +91,7 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 ## 📌Models
 
-| Model Name        | Huggingface Checkpoints                                                           | Wisemodel Checkpoints                                                                  | Modelscope Checkpoints                                                                   |
+| Model Name        | HuggingFace Checkpoints                                                           | WiseModel Checkpoints                                                                  | ModelScope Checkpoints                                                                   |
 |-------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | OceanGPT-14B-v0.1 | <a href="https://huggingface.co/zjunlp/OceanGPT-14B-v0.1" target="_blank">14B</a> | <a href="https://wisemodel.cn/models/zjunlp/OceanGPT-14B-v0.1" target="_blank">14B</a> | <a href="https://modelscope.cn/models/ZJUNLP/OceanGPT-14B-v0.1" target="_blank">14B</a> |
 | OceanGPT-7B-v0.2  | <a href="https://huggingface.co/zjunlp/OceanGPT-7b-v0.2" target="_blank">7B</a>   | <a href="https://wisemodel.cn/models/zjunlp/OceanGPT-7b-v0.2" target="_blank">7B</a>   | <a href="https://modelscope.cn/models/ZJUNLP/OceanGPT-7b-v0.2" target="_blank">7B</a>   |
@@ -110,12 +110,6 @@ Please cite our repository if you use EasyInstruct in your work.
   year={2023}
 }
 
-@misc{knowlm,
-  author = {Ningyu Zhang and Jintian Zhang and Xiaohan Wang and Honghao Gui and Kangwei Liu and Yinuo Jiang and Xiang Chen and Shengyu Mao and Shuofei Qiao and Yuqi Zhu and Zhen Bi and Jing Chen and Xiaozhuan Liang and Yixin Ou and Runnan Fang and Zekun Xi and Xin Xu and Lei Li and Peng Wang and Mengru Wang and Yunzhi Yao and Bozhong Tian and Yin Fang and Guozhou Zheng and Huajun Chen},
-  title = {KnowLM: An Open-sourced Knowledgeable Large Langugae Model Framework},
-  year = {2023},
- url = {http://knowlm.zjukg.cn/},
-}
 ```
 
 ---
