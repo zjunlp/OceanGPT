@@ -31,8 +31,6 @@
 - **2024-06-04, [OceanGPT](https://arxiv.org/abs/2310.02031) is accepted by ACL 2024. 🎉🎉**
 ---
 
-This repository is a subproject of [KnowLM](https://github.com/zjunlp/KnowLM).
-
 ## 🌟Overview
 
 This is the OceanGPT project, which aims to build LLMs for ocean science tasks.
