@@ -42,6 +42,11 @@ This is the OceanGPT project, which aims to build LLMs for ocean science tasks.
 </div>
 
 ## ⏩Quickstart
+
+```
+pip install -r requirements.txt
+```
+
 ### Download the model
 
 Download the model: [OceanGPT-14B-v0.1](https://huggingface.co/zjunlp/OceanGPT-14B-v0.1) or [
