@@ -37,7 +37,7 @@
 
 This is the OceanGPT project, which aims to build LLMs for ocean science tasks.
 
-<div style="text-align: center;">
+<div align="center">
 <img src="figs/overview.png" width="70%">
 </div>
 
