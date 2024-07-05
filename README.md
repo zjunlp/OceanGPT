@@ -106,7 +106,7 @@ OceanGPT is trained based on the open-sourced large language models including [Q
 
 ### 🚩Citation
 
-Please cite our repository if you use OceanGPT in your work.
+Please cite the following paper if you use OceanGPT in your work.
 
 ```bibtex
 @article{bi2023oceangpt,
