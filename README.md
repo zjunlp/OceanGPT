@@ -111,6 +111,14 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 OceanGPT is trained based on the open-sourced large language models including [Qwen](https://huggingface.co/Qwen), [MiniCPM](https://huggingface.co/collections/openbmb/minicpm-2b-65d48bf958302b9fd25b698f), [LLaMA](https://huggingface.co/meta-llama). Thanks for their great contributions!
 
+## Limitations
+
+- The model may have hallucination issues.
+
+- We did not optimize the identity and the model may generate identity information similar to that of Qwen/MiniCPM/LLaMA/GPT series models.
+
+- The model's output is influenced by prompt tokens, which may result in inconsistent results across multiple attempts.
+
 
 ### 🚩Citation
 
