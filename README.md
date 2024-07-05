@@ -36,7 +36,7 @@
 ## 🌟Overview
 
 This is the OceanGPT project, which aims to build LLMs for ocean science tasks.
-<img src="figs/overview.png">
+<img src="figs/overview.png" width="60%">
 
 ## ⏩Quickstart
 ### Download the model
