@@ -48,10 +48,7 @@ pip install -r requirements.txt
 ```
 
 ### Download the model
-
-Download the model: [OceanGPT-14B-v0.1](https://huggingface.co/zjunlp/OceanGPT-14B-v0.1) or [
-OceanGPT-7b-v0.2](https://huggingface.co/zjunlp/OceanGPT-7b-v0.2)
-
+#### Download from HuggingFace
 ```shell
 git lfs install
 git clone https://huggingface.co/zjunlp/OceanGPT-14B-v0.1
@@ -60,8 +57,18 @@ or
 ```
 huggingface-cli download --resume-download zjunlp/OceanGPT-14B-v0.1 --local-dir OceanGPT-14B-v0.1 --local-dir-use-symlinks False
 ```
+#### Download from WiseModel
+```shell
+git lfs install
+git clone https://www.wisemodel.cn/zjunlp/OceanGPT-14B-v0.1.git
+```
+#### Download from ModelScope
+```shell
+git lfs install
+git clone https://www.modelscope.cn/ZJUNLP/OceanGPT-14B-v0.1.git
+```
 ### Inference
-
+#### Inference by HuggingFace	
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
