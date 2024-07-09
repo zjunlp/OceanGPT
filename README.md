@@ -1,7 +1,7 @@
 <div align="center">
 <img src="figs/logo.jpg" width="300px">
 
-**OceanGPT: A Large Language Model for Ocean Science Tasks**
+**OceanGPT (沧渊): A Large Language Model for Ocean Science Tasks**
 
 <p align="center">
   <a href="https://github.com/zjunlp/OceanGPT">Project</a> •
@@ -109,7 +109,7 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 ## 🌻Acknowledgement
 
-OceanGPT is trained based on the open-sourced large language models including [Qwen](https://huggingface.co/Qwen), [MiniCPM](https://huggingface.co/collections/openbmb/minicpm-2b-65d48bf958302b9fd25b698f), [LLaMA](https://huggingface.co/meta-llama). Thanks for their great contributions!
+OceanGPT (沧渊) is trained based on the open-sourced large language models including [Qwen](https://huggingface.co/Qwen), [MiniCPM](https://huggingface.co/collections/openbmb/minicpm-2b-65d48bf958302b9fd25b698f), [LLaMA](https://huggingface.co/meta-llama). Thanks for their great contributions!
 
 ## Limitations
 
