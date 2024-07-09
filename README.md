@@ -30,12 +30,12 @@
 - **2024-07-04, we release OceanGPT-14B/2B-v0.1 and OceanGPT-7B-v0.2 based on Qwen and MiniCPM.**
 - **2024-06-04, [OceanGPT](https://arxiv.org/abs/2310.02031) is accepted by ACL 2024. 🎉🎉**
 - **2023-10-04, we release the paper "[OceanGPT: A Large Language Model for Ocean Science Tasks](https://arxiv.org/abs/2310.02031)" and release OceanGPT-7B-v0.1 based on LLaMA2.**
-- **2023-05-01, we launch the OceanGPT project.**
+- **2023-05-01, we launch the OceanGPT (沧渊) project.**
 ---
 
 ## 🌟Overview
 
-This is the OceanGPT project, which aims to build LLMs for ocean science tasks.
+This is the OceanGPT (沧渊) project, which aims to build LLMs for ocean science tasks.
 
 <div align="center">
 <img src="figs/overview.png" width="60%">
