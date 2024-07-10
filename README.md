@@ -72,8 +72,10 @@ git clone https://www.modelscope.cn/ZJUNLP/OceanGPT-14B-v0.1.git
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+
 device = "cuda" # the device to load the model onto
 path = 'YOUR-MODEL-PATH'
+
 model = AutoModelForCausalLM.from_pretrained(
     path,
     torch_dtype=torch.bfloat16,
@@ -103,7 +105,32 @@ generated_ids = [
 
 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 ```
+#### Inference by vllm
+```python
+from transformers import AutoTokenizer
+from vllm import LLM, SamplingParams
 
+device = "cuda" # the device to load the model onto
+path = 'YOUR-MODEL-PATH'
+
+tokenizer = AutoTokenizer.from_pretrained(path)
+
+prompt = "Which is the largest ocean in the world?"
+messages = [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": prompt}
+]
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True
+)
+
+sampling_params = SamplingParams(temperature=0.8, top_k=50)
+llm = LLM(model=path, quantization="fp8")
+
+response = llm.generate(text, sampling_params)
+```
 ## 📌Models
 
 | Model Name        | HuggingFace                                                          | WiseModel                                                                 | ModelScope                                                                |
