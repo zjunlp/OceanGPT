@@ -127,7 +127,7 @@ text = tokenizer.apply_chat_template(
 )
 
 sampling_params = SamplingParams(temperature=0.8, top_k=50)
-llm = LLM(model=path, quantization="fp8")
+llm = LLM(model=path)
 
 response = llm.generate(text, sampling_params)
 ```
