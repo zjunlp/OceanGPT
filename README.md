@@ -110,7 +110,6 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
 
-device = "cuda" # the device to load the model onto
 path = 'YOUR-MODEL-PATH'
 
 tokenizer = AutoTokenizer.from_pretrained(path)
