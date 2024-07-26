@@ -46,6 +46,8 @@ This is the OceanGPT (沧渊) project, which aims to build LLMs for ocean scienc
 ## ⏩Quickstart
 
 ```
+conda create -n py3.11 python=3.11
+conda activate py3.11
 pip install -r requirements.txt
 ```
 
@@ -69,6 +71,7 @@ git clone https://www.wisemodel.cn/zjunlp/OceanGPT-14B-v0.1.git
 git lfs install
 git clone https://www.modelscope.cn/ZJUNLP/OceanGPT-14B-v0.1.git
 ```
+
 ### Inference
 #### Inference by HuggingFace	
 ```python
