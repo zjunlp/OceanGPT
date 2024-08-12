@@ -38,7 +38,7 @@
 
 This is the OceanGPT (沧渊) project, which aims to build LLMs for ocean science tasks.
 
-- ❗**Disclaimer: This project is purely an academic exploration rather than a product. Please be aware that due to the inherent limitations of large language models, there may be issues such as hallucinations.**
+- ❗**Disclaimer: This project is purely an academic exploration rather than a product(本项目仅为学术探索并非产品应用). Please be aware that due to the inherent limitations of large language models, there may be issues such as hallucinations.**
 
 <div align="center">
 <img src="figs/overview.png" width="60%">
