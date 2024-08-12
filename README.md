@@ -38,6 +38,8 @@
 
 This is the OceanGPT (沧渊) project, which aims to build LLMs for ocean science tasks.
 
+- ❗**Disclaimer: This project is purely an academic exploration rather than a product. Please be aware that due to the inherent limitations of large language models, there may be issues such as hallucinations.**
+
 <div align="center">
 <img src="figs/overview.png" width="60%">
 <img src="figs/vedio.gif" width="60%">
@@ -157,6 +159,8 @@ OceanGPT (沧渊) is trained based on the open-sourced large language models inc
 - We did not optimize the identity and the model may generate identity information similar to that of Qwen/MiniCPM/LLaMA/GPT series models.
 
 - The model's output is influenced by prompt tokens, which may result in inconsistent results across multiple attempts.
+
+- The model requires the inclusion of specific simulator code instructions for training in order to possess simulated embodied intelligence capabilities (the simulator is subject to copyright restrictions and cannot be made available for now), and its current capabilities are quite limited.
 
 
 ### 🚩Citation
