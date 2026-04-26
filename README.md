@@ -31,9 +31,8 @@
 
 We have published a detailed beginner's guide for OceanGPT to help you quickly understand its capabilities. If you're looking to customize OceanGPT for practical use, you can refer to the Fine-tuning Guide to build a tailored question-answering engine.
 
-
-
 > [!IMPORTANT]
+> We release [OceanPile](https://github.com/OceanGPT/OceanPile) to provide a large-scale multimodal corpus for foundation models.
 > We regularly **update our open-source models**, so their capabilities may differ from previous versions. We warmly welcome your feedback to help us continuously improve the application of LLMs in the ocean domain.
 
 ## Table of Contents
